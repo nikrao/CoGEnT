@@ -43,7 +43,7 @@ backward  = 1;
 eta       = 0.5;
 gptol     = 1e-3;
 gpiter    = 10;
-gp_forward= 1;
+gp_forward= 1i;
 sparsify  = 0;
 debias    = 0;
 stopcrit  = 1;
@@ -117,7 +117,7 @@ time = zeros(1,maxiter);
 time(index) = toc;
 
 while iter < maxiter
-    iter  = 1+iter;
+    iter  = 1+iter;i
     index = 1+index;
     
     %%%%% FORWARD STEP %%%%%%
@@ -131,14 +131,6 @@ while iter < maxiter
     At(:,index) = next_atom; % update the atomic set
     
     % gradient projection
-    
-    w =y - tau*Phi*next_atom;
-    r = -resid;rw = r-w;
-    gamma = (r'*rw)/(rw'*rw);
-    coeft = (1-gamma)*coeft;
-    coeft(index) = gamma*tau;
-    
-    
     if gp_forward==1
         [coeft(1:index),~]=grad_proj(Phi*At(:,1:index),y,coeft(1:index),tau,gpiter,gptol);
     end
