@@ -5,6 +5,8 @@ clc;
 close all;
 warning off
 
+rng(100);
+
 p = 2000; % signal dimension
 n = 500;  % number of measurements
 noise = 0.05; % noise std. deviation
@@ -33,7 +35,6 @@ fprintf('********************************************************* \n')
 [xhat, At, obj, time] = CoGEnT_sparse(y, Phi, tau, Ainit, selfun,...
     'backward',1,...
     'maxiter',maxiter,...
-    'gp_forward',1,...
     'stopcrit',1);
 fprintf('... CoGEnT done ... \n');
 fprintf('ORIGINAL SPARSITY = %d \n',nnz(x));
@@ -50,7 +51,6 @@ fprintf('********************************************************* \n')
 
 [xhatcg, Atcg, objcg, timecg] = CoGEnT_sparse(y, Phi, tau, Ainit, selfun,...
     'backward',0,...
-    'gp_forward',0,...
     'maxiter',maxiter,...
     'stopcrit',1);
 fprintf('... CG done ... \n');
@@ -72,18 +72,18 @@ stem(x);hold on; plot(xhatcg,'r .');
 title('CG')
 
 figure
-plot(time(2:end),log(obj(2:end)),'r','LineWidth',2);
+plot(time(2:end),log(obj(2:end)),'r','LineWidth',3);
 hold on
-plot(timecg(2:end),log(objcg(2:end)),'b','LineWidth',2);
+plot(timecg(2:end),log(objcg(2:end)),'b','LineWidth',3);
 legend('CoGEnT','CG')
 xlabel('Time (seconds)','FontSize',18)
 ylabel('log(f(x))','FontSize',18)
 grid on
 
 figure
-plot(log(obj(2:end)),'r','LineWidth',2);
+plot(log(obj(2:end)),'r','LineWidth',3);
 hold on
-plot(log(objcg(2:end)),'b','LineWidth',2);
+plot(log(objcg(2:end)),'b','LineWidth',3);
 legend('CoGEnT','CG')
 xlabel('Iterations','FontSize',18)
 ylabel('log(f(x))','FontSize',18)

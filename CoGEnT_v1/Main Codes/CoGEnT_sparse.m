@@ -17,8 +17,8 @@ function [x, At, obj, time,mses] = CoGEnT_sparse(y, Phi, tau, Ainit, selfun , va
 % 'backward'  = default = 1. If set, perform multiple backward steps per iteration
 % 'eta'       = default = 0.5. backward parameter.
 % 'gptol'     = default = 1e-3. tolerance for gradient projection
-% 'gpiter'    = default = 10. maximum iterations of gradient projection
-% 'gp_forward'= default = 1 perform gradient projection in forward step
+% 'gpiter'    = default = 50. maximum iterations of gradient projection
+% 'gp_forward'= default = 0 perform gradient projection in forward step
 % 'sparsify'  = default = 0. If set, performs a final sparsification step
 %               by merging atoms and deleting zeros
 % 'debias'    = default = 0; perform a final debiasing step
@@ -43,7 +43,7 @@ backward  = 1;
 eta       = 0.5;
 gptol     = 1e-3;
 gpiter    = 10;
-gp_forward= 1i;
+gp_forward= 0;
 sparsify  = 0;
 debias    = 0;
 stopcrit  = 1;
@@ -117,7 +117,7 @@ time = zeros(1,maxiter);
 time(index) = toc;
 
 while iter < maxiter
-    iter  = 1+iter;i
+    iter  = 1+iter;
     index = 1+index;
     
     %%%%% FORWARD STEP %%%%%%
@@ -131,6 +131,14 @@ while iter < maxiter
     At(:,index) = next_atom; % update the atomic set
     
     % gradient projection
+    
+    w =y - tau*Phi*next_atom;
+    r = -resid;rw = r-w;
+    gamma = (r'*rw)/(rw'*rw);
+    coeft = (1-gamma)*coeft;
+    coeft(index) = gamma*tau;
+    
+    
     if gp_forward==1
         [coeft(1:index),~]=grad_proj(Phi*At(:,1:index),y,coeft(1:index),tau,gpiter,gptol);
     end

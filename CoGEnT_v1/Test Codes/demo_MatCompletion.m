@@ -39,6 +39,7 @@ gpiter = 50;
 tau = sum(abs(svd(Xtrue)));
 svt = 10;
 
+fprintf('Running CoGEnT with SVT \n')
 
 % CoGEnT with SVT in the Backward Step
 tic
@@ -55,10 +56,14 @@ tic
     'svt',svt);
 toc
 errs = norm(xtrue-x)^2/numel(x);
+fprintf('MSE = %f \n', errs);
 recs = x;
 
 
 % CoGEnT without SVT in the Backward Step
+
+fprintf('Now running CoGEnT with no SVT \n')
+
 tic
 [x, ~, ~, ~,~,~] = CoGEnT_MC(y, Phi, tau, Ainit, [n1,n2],selfun,...
     'maxiter',maxiter,...
@@ -73,6 +78,7 @@ tic
 
 toc
 errc = norm(xtrue-x)^2/numel(x);
+fprintf('MSE = %f \n', errc);
 recc = x;
 
 Xc = reshape(recc,n1,n2);

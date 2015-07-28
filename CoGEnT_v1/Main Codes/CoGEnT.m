@@ -17,9 +17,9 @@ function [x, At, obj, time, back_count] = CoGEnT(y, Phi, tau, Ainit, selfun , va
 % 'backward'  = default = 1. If set, perform multiple backward steps per iteration
 % 'eta'       = default = 0.5. backward parameter.
 % 'gptol'     = default = 1e-3. tolerance for gradient projection
-% 'gpiter'    = default = 10. maximum iterations of gradient projection
+% 'gpiter'    = default = 50. maximum iterations of gradient projection
 % 'verbose'   = default = 0. If set, gives text feedback
-% 'gp_forward'= default = 1 perform gradient projection in forward step
+% 'gp_forward'= default = 0 perform gradient projection in forward step
 % 'sparsify'  = default = 0. If set, performs a final sparsification step
 %               by merging atoms and deleting zeros
 % 'away'      = default = 0; perform away steps
@@ -43,9 +43,9 @@ tol       = 1e-8;
 backward  = 1;
 eta       = 0.5;
 gptol     = 1e-3;
-gpiter    = 10;
+gpiter    = 50;
 verbose   = 0;
-gp_forward= 1;
+gp_forward= 0;
 sparsify  = 0;
 away      = 0;
 debias    = 0;
@@ -113,7 +113,7 @@ while iter < maxiter
     %%%%% FORWARD STEP %%%%%%
     
     resid = Phi*x-y; % residual
-    gradf = Phi.'*resid;  % gradient
+    gradf = Phi.'*resid + lam*x;  % gradient
     
     % pick next atom
     next_atom = selfun(gradf);
@@ -162,7 +162,7 @@ while iter < maxiter
         do_multiple = 1;
         while do_multiple
             resid = (Phi*x-y);
-            gradfb =  Phi'*resid;
+            gradfb =  Phi'*resid + lam*x;
             
             [~, idx_rem] = min(-coeft.*(At'*gradfb)+0.5*sum(history.^2,1)'.*coeft.^2);
             
