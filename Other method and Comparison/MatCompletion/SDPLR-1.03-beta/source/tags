@@ -1,0 +1,749 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	copystructures.c	/^  datamat **A;$/;"	language:C
+A	dataoper.c	/^  datamat *A;$/;"	language:C
+A	dataoper.c	/^  lowrankmat *A;$/;"	language:C
+A	initialize.c	/^  sparsesymmmat      *A;$/;"	language:C
+A	structures.h	/^  datamat*** A;$/;"	language:C++	struct:__anon6
+A	util.c	/^  datamat *A;$/;"	language:C
+AA_colind	structures.h	/^  ptrdiff_t      *AA_colind;$/;"	language:C++	struct:__anon6
+AA_colval_one	structures.h	/^  double   *AA_colval_one;$/;"	language:C++	struct:__anon6
+AA_colval_two	structures.h	/^  double   *AA_colval_two;$/;"	language:C++	struct:__anon6
+AA_rowptr	structures.h	/^  ptrdiff_t      *AA_rowptr;$/;"	language:C++	struct:__anon6
+AGGMAT	initialize.c	/^  ptrdiff_t               **AGGMAT;$/;"	language:C
+APPL_OBJS	Makefile	/^APPL_OBJS = $(APPL_SRCS:.c=.o)$/;"	language:Make
+APPL_SRCS	Makefile	/^APPL_SRCS = \\$/;"	language:Make
+AToper	dataoper.c	/^ptrdiff_t AToper(problemdata* data, double* y, double* S, ptrdiff_t obj)$/;"	language:C	signature:(problemdata* data, double* y, double* S, ptrdiff_t obj)
+A_	mexsdplr.c	/^  const mxArray *A_;$/;"	language:C
+A_sp	mexsdplr.c	/^  ptrdiff_t A_sp;$/;"	language:C
+A_tr	mexsdplr.c	/^  ptrdiff_t A_tr;$/;"	language:C
+Adiag	copystructures.c	/^  diagmat *Adiag;$/;"	language:C
+Alr	copystructures.c	/^  lowrankmat *Alr;$/;"	language:C
+Aoper	dataoper.c	/^ptrdiff_t Aoper(problemdata* d, double* U, double* V, double* UVt, ptrdiff_t same, ptrdiff_t obj, double* results)$/;"	language:C	signature:(problemdata* d, double* U, double* V, double* UVt, ptrdiff_t same, ptrdiff_t obj, double* results)
+Aoper_formUVt	dataoper.c	/^ptrdiff_t Aoper_formUVt(problemdata* data, double* passedUVt, double* U, double* V, ptrdiff_t same)$/;"	language:C	signature:(problemdata* data, double* passedUVt, double* U, double* V, ptrdiff_t same)
+Asp	copystructures.c	/^  sparsesymmmat *Asp;$/;"	language:C
+B	dataoper.c	/^  sparsesymmmat *B;$/;"	language:C
+BEGIN	sdplrlib.c	20;"	language:C	file:
+C	structures.h	/^  datamat**  C;$/;"	language:C++	struct:__anon6
+CAcol	main.c	/^  ptrdiff_t *CArow, *CAcol, *CAinfo_entptr, *CAinfo_rowcolptr;$/;"	language:C
+CAcol	mexsdplr.c	/^  ptrdiff_t *CAcol;$/;"	language:C
+CAcol	readdata.c	/^  ptrdiff_t    *CArow, *CAcol, *CAinfo_entptr, *CAinfo_rowcolptr;$/;"	language:C
+CAent	main.c	/^  double *b, *CAent;$/;"	language:C
+CAent	mexsdplr.c	/^  double *CAent;$/;"	language:C
+CAent	readdata.c	/^  double *b, *CAent;$/;"	language:C
+CAinfo_entptr	main.c	/^  ptrdiff_t *CArow, *CAcol, *CAinfo_entptr, *CAinfo_rowcolptr;$/;"	language:C
+CAinfo_entptr	mexsdplr.c	/^  ptrdiff_t *CAinfo_entptr;$/;"	language:C
+CAinfo_entptr	readdata.c	/^  ptrdiff_t    *CArow, *CAcol, *CAinfo_entptr, *CAinfo_rowcolptr;$/;"	language:C
+CAinfo_rowcolptr	main.c	/^  ptrdiff_t *CArow, *CAcol, *CAinfo_entptr, *CAinfo_rowcolptr;$/;"	language:C
+CAinfo_rowcolptr	mexsdplr.c	/^  ptrdiff_t *CAinfo_rowcolptr;$/;"	language:C
+CAinfo_rowcolptr	readdata.c	/^  ptrdiff_t    *CArow, *CAcol, *CAinfo_entptr, *CAinfo_rowcolptr;$/;"	language:C
+CAinfo_storage	main.c	/^  char *CAinfo_type, *CAinfo_storage;$/;"	language:C
+CAinfo_storage	mexsdplr.c	/^  char *CAinfo_storage;$/;"	language:C
+CAinfo_storage	readdata.c	/^  char   *CAinfo_type, *CAinfo_storage;$/;"	language:C
+CAinfo_type	main.c	/^  char *CAinfo_type, *CAinfo_storage;$/;"	language:C
+CAinfo_type	mexsdplr.c	/^  char *CAinfo_type;$/;"	language:C
+CAinfo_type	readdata.c	/^  char   *CAinfo_type, *CAinfo_storage;$/;"	language:C
+CArow	main.c	/^  ptrdiff_t *CArow, *CAcol, *CAinfo_entptr, *CAinfo_rowcolptr;$/;"	language:C
+CArow	mexsdplr.c	/^  ptrdiff_t *CArow;$/;"	language:C
+CArow	readdata.c	/^  ptrdiff_t    *CArow, *CAcol, *CAinfo_entptr, *CAinfo_rowcolptr;$/;"	language:C
+CG	sdplrlib.c	/^  ptrdiff_t    majiter, iter, CG, curr_CG, lambdaupdate;$/;"	language:C
+CHECKBD	params.c	18;"	language:C	file:
+C_normdatamat	dataoper.c	/^double C_normdatamat(problemdata* data)$/;"	language:C	signature:(problemdata* data)
+CdotRRt	misc.c	/^  double CdotRRt, bty;$/;"	language:C
+Cnorm	dataoper.c	/^  double Cnorm, *VD;$/;"	language:C
+Cnorm	misc.c	/^  double Cnorm, bnorm;$/;"	language:C
+D	sdplrlib.c	/^  double      *D;$/;"	language:C
+D	util.c	/^  diagmat *D;$/;"	language:C
+DATABLOCKIND	macros.h	36;"	language:C++
+DATABLOCKIND	mexsdplr.c	20;"	language:C	file:
+DD	dataoper.c	/^  datamat *DD;$/;"	language:C
+DENSE	macros.h	34;"	language:C++
+DIAGBLK	macros.h	32;"	language:C++
+DTHRESH_DENS	params.c	14;"	language:C	file:
+DTHRESH_DIM	params.c	13;"	language:C	file:
+DVtVD	dataoper.c	/^  double normsq, *VD, *VtV, *DVtVD, one=1.0, zero=0.0;$/;"	language:C
+EASY	sdplrlib.c	23;"	language:C	file:
+EASYDAXPY	macros.h	20;"	language:C++
+EASYDCOPY	macros.h	21;"	language:C++
+EASYDDOT	macros.h	22;"	language:C++
+EASYDNRM2	macros.h	23;"	language:C++
+EASYDSCAL	macros.h	24;"	language:C++
+END	sdplrlib.c	21;"	language:C	file:
+G	dataoper.c	/^  double *G;$/;"	language:C
+G	structures.h	/^  double*      G;$/;"	language:C++	struct:__anon6
+GAPTOL	params.c	17;"	language:C	file:
+HARD	sdplrlib.c	25;"	language:C	file:
+INPUTTYPE	params.c	6;"	language:C	file:
+K_	mexsdplr.c	/^  const mxArray *K_;$/;"	language:C
+Kl_	mexsdplr.c	/^  const mxArray *Kl_;$/;"	language:C
+Ks_	mexsdplr.c	/^  const mxArray *Ks_;$/;"	language:C
+Ks_first	mexsdplr.c	/^  ptrdiff_t Ks_first=-1;$/;"	language:C
+LAMBDAUPDATECT	sdplrlib.c	17;"	language:C	file:
+LIB_DIRS_2	Makefile	/^LIB_DIRS_2 = -L..\/lib$/;"	language:Make
+LMATIND	macros.h	18;"	language:C++
+M	structures.h	/^  ptrdiff_t        M;$/;"	language:C++	struct:__anon6
+MATIND	mexsdplr.c	8;"	language:C	file:
+MEDIUM	sdplrlib.c	24;"	language:C	file:
+MM	readdata.c	/^  double *MM, *w, *work, maxeval=0.0;$/;"	language:C
+MYCALLOC	macros.h	9;"	language:C++
+MYCALLOC	mexsdplr.c	14;"	language:C	file:
+MYFREE	macros.h	10;"	language:C++
+MYFREE	mexsdplr.c	15;"	language:C	file:
+NUMBFGSVECS	params.c	15;"	language:C	file:
+NUMPARAMS	params.c	3;"	language:C	file:
+PRINTFREQ	sdplrlib.c	15;"	language:C	file:
+PRINTLEVEL	params.c	12;"	language:C	file:
+R	main.c	/^  double *R, *lambda, pieces[8];$/;"	language:C
+R	mexsdplr.c	/^  double *R;$/;"	language:C
+R	util.c	/^  lowrankmat *R;$/;"	language:C
+RANDOM	macros.h	28;"	language:C++
+RANDOM	main.c	4;"	language:C	file:
+RANKREDTOL	params.c	16;"	language:C	file:
+RANKREDUCE	params.c	10;"	language:C	file:
+RHO_C	params.c	8;"	language:C	file:
+RHO_F	params.c	7;"	language:C	file:
+S	misc.c	/^  double *X, *S;$/;"	language:C
+S	structures.h	/^  double   *S;$/;"	language:C++	struct:__anon6
+S	util.c	/^  sparsesymmmat *S;$/;"	language:C
+SCALE_OBJ	macros.h	29;"	language:C++
+SDPBLK	macros.h	31;"	language:C++
+SIGMAFAC	params.c	9;"	language:C	file:
+SIGMASTRATEGY	sdplrlib.c	18;"	language:C	file:
+SMATIND	macros.h	17;"	language:C++
+SPARSE	macros.h	33;"	language:C++
+Sblockmineval	eigen.c	/^ptrdiff_t Sblockmineval(problemdata* d, double* blkevals)$/;"	language:C	signature:(problemdata* d, double* blkevals)
+Scopy	eigen.c	/^  double *work, *Scopy, *evals;$/;"	language:C
+Smineval	eigen.c	/^ptrdiff_t Smineval(problemdata* d, double* eval)$/;"	language:C	signature:(problemdata* d, double* eval)
+StimesR	dataoper.c	/^ptrdiff_t StimesR(problemdata *data, double *S, double *y, double *R, double *result)$/;"	language:C	signature:(problemdata *data, double *S, double *y, double *R, double *result)
+Stimesmat	dataoper.c	/^ptrdiff_t Stimesmat(problemdata *data, double *S, double *y, double* vec, double* result, ptrdiff_t n, ptrdiff_t m, ptrdiff_t k)$/;"	language:C	signature:(problemdata *data, double *S, double *y, double* vec, double* result, ptrdiff_t n, ptrdiff_t m, ptrdiff_t k)
+TIMELIM	params.c	11;"	language:C	file:
+TYPEBD	params.c	19;"	language:C	file:
+U	dataoper.c	/^  double one=1.0, zero=0.0, *U;$/;"	language:C
+U	rankreduce.c	/^  double tol, *U, *tempU, tv;$/;"	language:C
+UVt	dataoper.c	/^  double *UVt;$/;"	language:C
+VD	dataoper.c	/^  double Cnorm, *VD;$/;"	language:C
+VD	dataoper.c	/^  double normsq, *VD, *VtV, *DVtVD, one=1.0, zero=0.0;$/;"	language:C
+VERSION	version.h	1;"	language:C++
+VtV	dataoper.c	/^  double normsq, *VD, *VtV, *DVtVD, one=1.0, zero=0.0;$/;"	language:C
+X	misc.c	/^  double *X, *S;$/;"	language:C
+X	structures.h	/^  double   *X;$/;"	language:C++	struct:__anon6
+XS_blkptr	structures.h	/^  ptrdiff_t      *XS_blkptr;$/;"	language:C++	struct:__anon6
+XS_blksto	structures.h	/^  char     *XS_blksto;$/;"	language:C++	struct:__anon6
+XS_colptr	structures.h	/^  ptrdiff_t     **XS_colptr;$/;"	language:C++	struct:__anon6
+XS_in	structures.h	/^  ptrdiff_t*    XS_in;$/;"	language:C++	struct:__anon3
+XS_in	structures.h	/^  ptrdiff_t*    XS_in;$/;"	language:C++	struct:__anon4
+XS_rowind	structures.h	/^  ptrdiff_t     **XS_rowind;$/;"	language:C++	struct:__anon6
+ZEROVEC	macros.h	25;"	language:C++
+_isnan	macros.h	2;"	language:C++
+a	structures.h	/^  double a;$/;"	language:C++	struct:__anon1
+all	eigen.c	/^  char bmat[2], all[4];$/;"	language:C
+alpha	sdplrlib.c	/^  double       alpha, rho_c_tol, normb, normC;$/;"	language:C
+assigned	params.c	/^  ptrdiff_t assigned[NUMPARAMS];$/;"	language:C
+b	main.c	/^  double *b, *CAent;$/;"	language:C
+b	mexsdplr.c	/^  double *b;$/;"	language:C
+b	readdata.c	/^  double *b, *CAent;$/;"	language:C
+b	structures.h	/^  double*    b;$/;"	language:C++	struct:__anon6
+b_	mexsdplr.c	/^  const mxArray *b_;$/;"	language:C
+b_sp	mexsdplr.c	/^  ptrdiff_t b_sp;$/;"	language:C
+b_tr	mexsdplr.c	/^  ptrdiff_t b_tr;$/;"	language:C
+base	dataoper.c	/^  ptrdiff_t base, rk;$/;"	language:C
+base	dataoper.c	/^  ptrdiff_t i, k, base;$/;"	language:C
+base	dataoper.c	/^  ptrdiff_t k, base=0;$/;"	language:C
+base	main.c	/^  ptrdiff_t h, k, base, ti1, ti2, ti3;$/;"	language:C
+base	main.c	/^  ptrdiff_t h, k, base;$/;"	language:C
+base	mexsdplr.c	/^  ptrdiff_t base;$/;"	language:C
+base	rankreduce.c	/^  ptrdiff_t h, i, j, k, p, q, base, base1, base2;$/;"	language:C
+base1	mexsdplr.c	/^  ptrdiff_t base1;$/;"	language:C
+base1	rankreduce.c	/^  ptrdiff_t h, i, j, k, p, q, base, base1, base2;$/;"	language:C
+base2	rankreduce.c	/^  ptrdiff_t h, i, j, k, p, q, base, base1, base2;$/;"	language:C
+bestbd	sdplrlib.c	/^  double       bestbd;$/;"	language:C
+bestinfeas	sdplrlib.c	/^  double bestinfeas=1.0e10;$/;"	language:C
+beta	lbfgs.c	/^  double beta;$/;"	language:C
+blk	mexsdplr.c	/^  ptrdiff_t blk;$/;"	language:C
+blk	readdata.c	/^  ptrdiff_t ct, blk, specindex;$/;"	language:C
+blk	readdata.c	/^  ptrdiff_t i, ct, buflen, ret, num, pos1, pos2, blk, *nnz, *temp_num, *temp_blk, specindex;$/;"	language:C
+blkevals	eigen.c	/^  double *blkevals;$/;"	language:C
+blksz	dataoper.c	/^  ptrdiff_t blksz, rank;$/;"	language:C
+blksz	main.c	/^  ptrdiff_t m, numblk, *blksz;$/;"	language:C
+blksz	mexsdplr.c	/^  ptrdiff_t *blksz;$/;"	language:C
+blksz	readdata.c	/^  ptrdiff_t    m, numblk, *blksz;$/;"	language:C
+blksz	structures.h	/^  ptrdiff_t*       blksz;$/;"	language:C++	struct:__anon6
+blktype	main.c	/^  char *blktype;$/;"	language:C
+blktype	mexsdplr.c	/^  char *blktype;$/;"	language:C
+blktype	readdata.c	/^  char   *blktype;$/;"	language:C
+blktype	structures.h	/^  char*      blktype;$/;"	language:C++	struct:__anon6
+bmat	eigen.c	/^  char bmat[2], all[4];$/;"	language:C
+bnorm	misc.c	/^  double Cnorm, bnorm;$/;"	language:C
+bty	misc.c	/^  double CdotRRt, bty;$/;"	language:C
+buf	readdata.c	/^  char *buf, c, *ptr1, *ptr2;$/;"	language:C
+buff	params.c	/^  char *buff, *match;$/;"	language:C
+buffsz	params.c	/^  ptrdiff_t i, buffsz, ret, numparams=NUMPARAMS;$/;"	language:C
+buflen	readdata.c	/^  ptrdiff_t i, ct, buflen, ret, num, pos1, pos2, blk, *nnz, *temp_num, *temp_blk, specindex;$/;"	language:C
+c	mexsdplr.c	/^  ptrdiff_t r, c;$/;"	language:C
+c	params.c	/^  char c;$/;"	language:C
+c	params.c	/^  ptrdiff_t maxlen=0, k, c;$/;"	language:C
+c	readdata.c	/^  char *buf, c, *ptr1, *ptr2;$/;"	language:C
+c	readdata.c	/^  char c;$/;"	language:C
+c	readdata.c	/^  ptrdiff_t maxlen=0, k=0, c;$/;"	language:C
+c	readdata.c	/^  ptrdiff_t r, c, nnz, sz, info, lwork, rank=0, maxsz;$/;"	language:C
+c_	mexsdplr.c	/^  const mxArray *c_;$/;"	language:C
+c_empty	mexsdplr.c	/^  ptrdiff_t c_empty;$/;"	language:C
+c_sp	mexsdplr.c	/^  ptrdiff_t c_sp;$/;"	language:C
+c_tr	mexsdplr.c	/^  ptrdiff_t c_tr;$/;"	language:C
+cell	mexsdplr.c	/^  mxArray *cell;$/;"	language:C
+checkbd	main.c	/^  ptrdiff_t checkbd;$/;"	language:C
+checkbd	mexsdplr.c	/^  ptrdiff_t checkbd;$/;"	language:C
+checkbd	structures.h	/^  ptrdiff_t        checkbd;$/;"	language:C++	struct:__anon6
+classifyApq	mexsdplr.c	/^ptrdiff_t classifyApq(ptrdiff_t* blksz, char* blktype, ptrdiff_t* inblk, ptrdiff_t* inblkptr, ptrdiff_t p, ptrdiff_t q, ptrdiff_t A_tr, ptrdiff_t* cons, ptrdiff_t* blk, ptrdiff_t* i, ptrdiff_t* j)$/;"	language:C	signature:(ptrdiff_t* blksz, char* blktype, ptrdiff_t* inblk, ptrdiff_t* inblkptr, ptrdiff_t p, ptrdiff_t q, ptrdiff_t A_tr, ptrdiff_t* cons, ptrdiff_t* blk, ptrdiff_t* i, ptrdiff_t* j)
+clocks_per_second	timefuncs.c	/^  ptrdiff_t     clocks_per_second = sysconf( _SC_CLK_TCK );$/;"	language:C
+col	initialize.c	/^  ptrdiff_t col, row, ctr;$/;"	language:C
+col	structures.h	/^  ptrdiff_t*    col;$/;"	language:C++	struct:__anon3
+colptr	dataoper.c	/^  ptrdiff_t *colptr, *rowind;$/;"	language:C
+colptr	initialize.c	/^  ptrdiff_t                *colptr;$/;"	language:C
+colptr	misc.c	/^  ptrdiff_t *colptr, *rowind;$/;"	language:C
+cons	main.c	/^  ptrdiff_t i, k, *cons, n, nr, ind;$/;"	language:C
+cons	mexsdplr.c	/^  ptrdiff_t cons;$/;"	language:C
+copyscaledvectovec	util.c	/^ptrdiff_t copyscaledvectovec(double* dy, double da, double* dx, ptrdiff_t n)$/;"	language:C	signature:(double* dy, double da, double* dx, ptrdiff_t n)
+copystructures	copystructures.c	/^ptrdiff_t copystructures(problemdata* data, ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t* blksz, char* blktype, double* b,$/;"	language:C	signature:(problemdata* data, ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t* blksz, char* blktype, double* b, double* CAent, ptrdiff_t* CArow, ptrdiff_t* CAcol, ptrdiff_t* CAinfo_entptr, char* CAinfo_type)
+createdatamat	util.c	/^ptrdiff_t createdatamat(datamat** passedA, char type, ptrdiff_t ncol_or_nnz, ptrdiff_t dim, char* label)$/;"	language:C	signature:(datamat** passedA, char type, ptrdiff_t ncol_or_nnz, ptrdiff_t dim, char* label)
+creatediagmat	util.c	/^ptrdiff_t creatediagmat(diagmat** passedD, ptrdiff_t nnz)$/;"	language:C	signature:(diagmat** passedD, ptrdiff_t nnz)
+createlowrankmat	util.c	/^ptrdiff_t createlowrankmat(lowrankmat** passedR, ptrdiff_t ncol, ptrdiff_t nrow)$/;"	language:C	signature:(lowrankmat** passedR, ptrdiff_t ncol, ptrdiff_t nrow)
+createsparsesymmmat	util.c	/^ptrdiff_t createsparsesymmmat(sparsesymmmat** passedS, ptrdiff_t nnz)$/;"	language:C	signature:(sparsesymmmat** passedS, ptrdiff_t nnz)
+ct	eigen.c	/^  ptrdiff_t ct, i, k, nev, maxitr, printlevel;$/;"	language:C
+ct	eigen.c	/^  ptrdiff_t problem, ct, i, k;$/;"	language:C
+ct	initialize.c	/^  ptrdiff_t                 h, i, j, k, ct;$/;"	language:C
+ct	initialize.c	/^  ptrdiff_t ct;$/;"	language:C
+ct	readdata.c	/^  ptrdiff_t ct, blk, specindex;$/;"	language:C
+ct	readdata.c	/^  ptrdiff_t i, ct, buflen, ret, num, pos1, pos2, blk, *nnz, *temp_num, *temp_blk, specindex;$/;"	language:C
+ctr	initialize.c	/^  ptrdiff_t col, row, ctr;$/;"	language:C
+cubic	linesearch.c	/^  double quartic[5], cubic[4], roots[3], f0, fmax, f1, f2, f3, minval;$/;"	language:C
+curr_CG	sdplrlib.c	/^  ptrdiff_t    majiter, iter, CG, curr_CG, lambdaupdate;$/;"	language:C
+current_time	timefuncs.c	/^double current_time(clock_t timeorig)$/;"	language:C	signature:(clock_t timeorig)
+current_time	timefuncs.c	/^double current_time(double timeorig)$/;"	language:C	signature:(double timeorig)
+currnorm	rankreduce.c	/^  double currnorm, totalnorm;$/;"	language:C
+d	eigen.c	/^  double *v, *workl, *workd, *d, *resid;$/;"	language:C
+d	structures.h	/^  double*  d;$/;"	language:C++	struct:__anon2
+d1	misc.c	/^  double d1,d2,d3,d4,d5,d6;$/;"	language:C
+d2	misc.c	/^  double d1,d2,d3,d4,d5,d6;$/;"	language:C
+d3	misc.c	/^  double d1,d2,d3,d4,d5,d6;$/;"	language:C
+d4	misc.c	/^  double d1,d2,d3,d4,d5,d6;$/;"	language:C
+d5	misc.c	/^  double d1,d2,d3,d4,d5,d6;$/;"	language:C
+d6	misc.c	/^  double d1,d2,d3,d4,d5,d6;$/;"	language:C
+dA	initialize.c	/^  datamat* dA;$/;"	language:C
+data	sdplrlib.c	/^  problemdata *data;$/;"	language:C
+datafile	readdata.c	/^  FILE *datafile;$/;"	language:C
+datamat	structures.h	/^} datamat;$/;"	language:C++	typeref:struct:__anon5
+daxpy_	macros.h	48;"	language:C++
+dcopy_	macros.h	49;"	language:C++
+ddot_	macros.h	50;"	language:C++
+def	params.c	/^  char def[NUMPARAMS][50] = {$/;"	language:C
+deinitialize	initialize.c	/^ptrdiff_t deinitialize (problemdata * data)$/;"	language:C	signature:(problemdata * data)
+destroydatamat	util.c	/^ptrdiff_t destroydatamat(datamat* A)$/;"	language:C	signature:(datamat* A)
+destroydiagmat	util.c	/^ptrdiff_t destroydiagmat(diagmat* D)$/;"	language:C	signature:(diagmat* D)
+destroylowrankmat	util.c	/^ptrdiff_t destroylowrankmat(lowrankmat* R)$/;"	language:C	signature:(lowrankmat* R)
+destroysparsesymmmat	util.c	/^ptrdiff_t destroysparsesymmmat(sparsesymmmat* S)$/;"	language:C	signature:(sparsesymmmat* S)
+dgemm_	macros.h	43;"	language:C++
+dgeqp3_	macros.h	47;"	language:C++
+diag	structures.h	/^  diagmat*       diag;$/;"	language:C++	struct:__anon5
+diagmat	structures.h	/^} diagmat;$/;"	language:C++	typeref:struct:__anon4
+difficulty	sdplrlib.c	/^  char line[1000], difficulty='h';$/;"	language:C
+dimwork	eigen.c	/^  ptrdiff_t maxblksz, info, dimwork;$/;"	language:C
+dirlbfgs	lbfgs.c	/^ptrdiff_t dirlbfgs(problemdata* data, lbfgsvec* vecs, double* dir, double* grad, ptrdiff_t oldest, ptrdiff_t numlbfgsvecs, ptrdiff_t scale)$/;"	language:C	signature:(problemdata* data, lbfgsvec* vecs, double* dir, double* grad, ptrdiff_t oldest, ptrdiff_t numlbfgsvecs, ptrdiff_t scale)
+dnrm2_	macros.h	51;"	language:C++
+doAR	mexsdplr.c	/^  ptrdiff_t doAR;$/;"	language:C
+do_scaling	sdplrlib.c	/^ptrdiff_t do_scaling(problemdata *data, double value, double *norm)$/;"	language:C	signature:(problemdata *data, double value, double *norm)
+dorankreduce	rankreduce.c	/^ptrdiff_t dorankreduce(problemdata* d, double* R)$/;"	language:C	signature:(problemdata* d, double* R)
+dscal_	macros.h	52;"	language:C++
+dsyev_	macros.h	46;"	language:C++
+dsymm_	macros.h	44;"	language:C++
+dsyr2k_	macros.h	42;"	language:C++
+dsyr_	macros.h	40;"	language:C++
+dsyrk_	macros.h	41;"	language:C++
+dsyrk_	mexsdplr.c	11;"	language:C	file:
+dthresh_dens	main.c	/^  double dthresh_dens;$/;"	language:C
+dthresh_dens	mexsdplr.c	/^  double dthresh_dens;$/;"	language:C
+dthresh_dens	structures.h	/^  double     dthresh_dens;$/;"	language:C++	struct:__anon6
+dthresh_dim	main.c	/^  ptrdiff_t dthresh_dim;$/;"	language:C
+dthresh_dim	mexsdplr.c	/^  ptrdiff_t dthresh_dim;$/;"	language:C
+dthresh_dim	structures.h	/^  ptrdiff_t        dthresh_dim;$/;"	language:C++	struct:__anon6
+ent	structures.h	/^  double*  ent;$/;"	language:C++	struct:__anon2
+ent	structures.h	/^  double* ent;$/;"	language:C++	struct:__anon3
+ent	structures.h	/^  double* ent;$/;"	language:C++	struct:__anon4
+entry	readdata.c	/^  double entry;$/;"	language:C
+essential_calcs	dataoper.c	/^ptrdiff_t essential_calcs(problemdata* data, double* R, double normC, double normb, double* val, double* rho_c_val, double* rho_f_val)$/;"	language:C	signature:(problemdata* data, double* R, double normC, double normb, double* val, double* rho_c_val, double* rho_f_val)
+eval	eigen.c	/^  double eval;$/;"	language:C
+evaladj	structures.h	/^  double     evaladj;$/;"	language:C++	struct:__anon6
+evals	eigen.c	/^  double *work, *Scopy, *evals;$/;"	language:C
+exit	dataoper.c	4;"	language:C	file:
+exit	dataoper.c	5;"	language:C	file:
+exit	eigen.c	4;"	language:C	file:
+exit	eigen.c	5;"	language:C	file:
+exit	linesearch.c	4;"	language:C	file:
+exit	linesearch.c	5;"	language:C	file:
+exit	sdplrlib.c	11;"	language:C	file:
+exit	sdplrlib.c	12;"	language:C	file:
+f0	linesearch.c	/^  double quartic[5], cubic[4], roots[3], f0, fmax, f1, f2, f3, minval;$/;"	language:C
+f1	linesearch.c	/^  double quartic[5], cubic[4], roots[3], f0, fmax, f1, f2, f3, minval;$/;"	language:C
+f2	linesearch.c	/^  double quartic[5], cubic[4], roots[3], f0, fmax, f1, f2, f3, minval;$/;"	language:C
+f3	linesearch.c	/^  double quartic[5], cubic[4], roots[3], f0, fmax, f1, f2, f3, minval;$/;"	language:C
+fid	main.c	/^  FILE *fid;$/;"	language:C
+fid	params.c	/^  FILE *fid;$/;"	language:C
+fid	readdata.c	/^  FILE *fid;$/;"	language:C
+field	mexsdplr.c	/^  mxArray *field;$/;"	language:C
+fieldname	mexsdplr.c	/^  char *fieldname;$/;"	language:C
+filein	main.c	/^  char *filein;$/;"	language:C
+filename	params.c	/^  char in[NUMPARAMS][110], *ret, filename[] = "sdplr.params", usrfilename[100];$/;"	language:C
+fileout	main.c	/^  char *fileout;$/;"	language:C
+finish	structures.h	/^  clock_t finish;$/;"	language:C++	struct:__anon6
+fmax	linesearch.c	/^  double quartic[5], cubic[4], roots[3], f0, fmax, f1, f2, f3, minval;$/;"	language:C
+forcerank	mexsdplr.c	/^  double *forcerank;$/;"	language:C
+function	dataoper.c	/^double function(problemdata* data, double* R)$/;"	language:C	signature:(problemdata* data, double* R)
+gaptol	main.c	/^  double gaptol;$/;"	language:C
+gaptol	mexsdplr.c	/^  double gaptol;$/;"	language:C
+gaptol	structures.h	/^  double     gaptol;$/;"	language:C++	struct:__anon6
+gdens	mexsdplr.c	/^  double gdens;$/;"	language:C
+generate_params	params.c	/^ptrdiff_t generate_params(void)$/;"	language:C	signature:(void)
+generate_params_info	params.c	/^ptrdiff_t generate_params_info(ptrdiff_t num)$/;"	language:C	signature:(ptrdiff_t num)
+get_line	readdata.c	/^ptrdiff_t get_line(FILE *datafile, char *buffer, ptrdiff_t bufsiz)$/;"	language:C	signature:(FILE *datafile, char *buffer, ptrdiff_t bufsiz)
+getparams	params.c	/^ptrdiff_t getparams($/;"	language:C	signature:( char* paramfile, ptrdiff_t* inputtype, double* rho_f, double* rho_c, double* sigmafac, ptrdiff_t* rankreduce, ptrdiff_t* timelim, ptrdiff_t* printlevel, ptrdiff_t* dthresh_dim, double* dthresh_dens, ptrdiff_t* numbfgsvecs, double* rankredtol, double* gaptol, ptrdiff_t* checkbd, ptrdiff_t* typebd)
+getparams_getline	params.c	/^ptrdiff_t getparams_getline(FILE *datafile, char *buffer, ptrdiff_t bufsiz)$/;"	language:C	signature:(FILE *datafile, char *buffer, ptrdiff_t bufsiz)
+getparams_isnumber	params.c	/^ptrdiff_t getparams_isnumber(char* str)$/;"	language:C	signature:(char* str)
+getparams_maxlinelength	params.c	/^ptrdiff_t getparams_maxlinelength(FILE *datafile)$/;"	language:C	signature:(FILE *datafile)
+getparams_tolower	params.c	/^ptrdiff_t getparams_tolower(char* buff, ptrdiff_t buffsz)$/;"	language:C	signature:(char* buff, ptrdiff_t buffsz)
+getstorage	main.c	/^ptrdiff_t getstorage(ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t* blksz, char* blktype, $/;"	language:C	signature:(ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t* blksz, char* blktype, ptrdiff_t* CAinfo_entptr, ptrdiff_t* passedn, ptrdiff_t* passednr, ptrdiff_t* maxranks)
+global_ADD	globalsmain.h	/^double *global_ADD;$/;"	language:C++
+global_ARD	globalsmain.h	/^double *global_ARD;$/;"	language:C++
+global_UVt	globalsmain.h	/^double *global_UVt;$/;"	language:C++
+global_UtB	globalsmain.h	/^double       *global_UtB;$/;"	language:C++
+global_VtB	globalsmain.h	/^double       *global_VtB;$/;"	language:C++
+global_blk	globalsmain.h	/^ptrdiff_t           global_blk;$/;"	language:C++
+global_data	globalsmain.h	/^problemdata  *global_data;$/;"	language:C++
+gradient	dataoper.c	/^ptrdiff_t gradient(problemdata* data, double* R)$/;"	language:C	signature:(problemdata* data, double* R)
+h	copystructures.c	/^  ptrdiff_t h, i, j, k, nnz;$/;"	language:C
+h	dataoper.c	/^  ptrdiff_t      h, i, j, k;$/;"	language:C
+h	dataoper.c	/^  ptrdiff_t h, i, j, k;$/;"	language:C
+h	dataoper.c	/^  ptrdiff_t h, i, j, r;$/;"	language:C
+h	initialize.c	/^  ptrdiff_t                 h, i, j, k, ct;$/;"	language:C
+h	main.c	/^  ptrdiff_t h, k, base, ti1, ti2, ti3;$/;"	language:C
+h	main.c	/^  ptrdiff_t h, k, base;$/;"	language:C
+h	main.c	/^  ptrdiff_t h, k, ret, n, nr, *maxranks, *ranks;$/;"	language:C
+h	mexsdplr.c	/^  ptrdiff_t h;$/;"	language:C
+h	rankreduce.c	/^  ptrdiff_t h, i, j, k, p, q, base, base1, base2;$/;"	language:C
+h	readdata.c	/^  ptrdiff_t h, i, j, k;$/;"	language:C
+h	readdata.c	/^  ptrdiff_t h, i, k;$/;"	language:C
+half	dataoper.c	/^  double half=0.5, one=1.0, zero=0.0;$/;"	language:C
+i	copystructures.c	/^  ptrdiff_t h, i, j, k, nnz;$/;"	language:C
+i	dataoper.c	/^  ptrdiff_t      h, i, j, k;$/;"	language:C
+i	dataoper.c	/^  ptrdiff_t h, i, j, k;$/;"	language:C
+i	dataoper.c	/^  ptrdiff_t h, i, j, r;$/;"	language:C
+i	dataoper.c	/^  ptrdiff_t i, j, k;$/;"	language:C
+i	dataoper.c	/^  ptrdiff_t i, k, base;$/;"	language:C
+i	dataoper.c	/^  ptrdiff_t i;$/;"	language:C
+i	eigen.c	/^  ptrdiff_t ct, i, k, nev, maxitr, printlevel;$/;"	language:C
+i	eigen.c	/^  ptrdiff_t i;$/;"	language:C
+i	eigen.c	/^  ptrdiff_t problem, ct, i, k;$/;"	language:C
+i	initialize.c	/^  ptrdiff_t                 h, i, j, k, ct;$/;"	language:C
+i	initialize.c	/^  ptrdiff_t                 i, j, k;$/;"	language:C
+i	initialize.c	/^  ptrdiff_t i, k;$/;"	language:C
+i	lbfgs.c	/^  ptrdiff_t i, ind;$/;"	language:C
+i	linesearch.c	/^  ptrdiff_t i;$/;"	language:C
+i	main.c	/^  ptrdiff_t i, k, *cons, n, nr, ind;$/;"	language:C
+i	mexsdplr.c	/^  ptrdiff_t i;$/;"	language:C
+i	misc.c	/^  ptrdiff_t i, j, k, one=1;$/;"	language:C
+i	params.c	/^  ptrdiff_t i, buffsz, ret, numparams=NUMPARAMS;$/;"	language:C
+i	params.c	/^  ptrdiff_t i, length;$/;"	language:C
+i	params.c	/^  ptrdiff_t i;$/;"	language:C
+i	rankreduce.c	/^  ptrdiff_t h, i, j, k, p, q, base, base1, base2;$/;"	language:C
+i	readdata.c	/^   ptrdiff_t i, j;$/;"	language:C
+i	readdata.c	/^  ptrdiff_t h, i, j, k;$/;"	language:C
+i	readdata.c	/^  ptrdiff_t h, i, k;$/;"	language:C
+i	readdata.c	/^  ptrdiff_t i, ct, buflen, ret, num, pos1, pos2, blk, *nnz, *temp_num, *temp_blk, specindex;$/;"	language:C
+i	readdata.c	/^  ptrdiff_t i, j, k, *nnz, num, pos1, pos2, sz;$/;"	language:C
+i	readdata.c	/^  ptrdiff_t i, k=0;$/;"	language:C
+i	sdplrlib.c	/^  ptrdiff_t  i, k, localiter=0, recalc=5, recalcct=10000000;$/;"	language:C
+idamax_	macros.h	45;"	language:C++
+ido	eigen.c	/^  ptrdiff_t ldv, ido, lworkl, info, ierr;$/;"	language:C
+ierr	eigen.c	/^  ptrdiff_t ldv, ido, lworkl, info, ierr;$/;"	language:C
+ii	mexsdplr.c	/^  ptrdiff_t ii;$/;"	language:C
+in	params.c	/^  char in[NUMPARAMS][110], *ret, filename[] = "sdplr.params", usrfilename[100];$/;"	language:C
+inblk	mexsdplr.c	/^  ptrdiff_t *inblk;$/;"	language:C
+inblkptr	mexsdplr.c	/^  ptrdiff_t *inblkptr;$/;"	language:C
+inc1	dataoper.c	/^  ptrdiff_t      inc1 = 1;$/;"	language:C
+ind	initialize.c	/^  ptrdiff_t *ind, nind;$/;"	language:C
+ind	lbfgs.c	/^  ptrdiff_t i, ind;$/;"	language:C
+ind	main.c	/^  ptrdiff_t i, k, *cons, n, nr, ind;$/;"	language:C
+ind	structures.h	/^  ptrdiff_t*    ind;$/;"	language:C++	struct:__anon4
+info	eigen.c	/^  ptrdiff_t ldv, ido, lworkl, info, ierr;$/;"	language:C
+info	eigen.c	/^  ptrdiff_t maxblksz, info, dimwork;$/;"	language:C
+info	rankreduce.c	/^  ptrdiff_t info, lwork, *jpvt;$/;"	language:C
+info	readdata.c	/^  ptrdiff_t r, c, nnz, sz, info, lwork, rank=0, maxsz;$/;"	language:C
+info0_	mexsdplr.c	/^  const mxArray *info0_;$/;"	language:C
+info0_empty	mexsdplr.c	/^  ptrdiff_t info0_empty=1;$/;"	language:C
+infonames	mexsdplr.c	/^  char **infonames;$/;"	language:C
+initialize	initialize.c	/^ptrdiff_t initialize (problemdata * data, ptrdiff_t * maxranks)$/;"	language:C	signature:(problemdata * data, ptrdiff_t * maxranks)
+inputtype	main.c	/^  ptrdiff_t inputtype;$/;"	language:C
+inputtype	mexsdplr.c	/^  ptrdiff_t inputtype;$/;"	language:C
+iparam	eigen.c	/^  ptrdiff_t *select, iparam[11], ipntr[11];$/;"	language:C
+ipntr	eigen.c	/^  ptrdiff_t *select, iparam[11], ipntr[11];$/;"	language:C
+ir	mexsdplr.c	/^  ptrdiff_t *ir;$/;"	language:C
+ishfts	eigen.c	/^  ptrdiff_t mode, ishfts, rvec;$/;"	language:C
+iter	sdplrlib.c	/^  ptrdiff_t    majiter, iter, CG, curr_CG, lambdaupdate;$/;"	language:C
+j	copystructures.c	/^  ptrdiff_t h, i, j, k, nnz;$/;"	language:C
+j	dataoper.c	/^  ptrdiff_t      h, i, j, k;$/;"	language:C
+j	dataoper.c	/^  ptrdiff_t h, i, j, k;$/;"	language:C
+j	dataoper.c	/^  ptrdiff_t h, i, j, r;$/;"	language:C
+j	dataoper.c	/^  ptrdiff_t i, j, k;$/;"	language:C
+j	dataoper.c	/^  ptrdiff_t j;$/;"	language:C
+j	initialize.c	/^  ptrdiff_t                 h, i, j, k, ct;$/;"	language:C
+j	initialize.c	/^  ptrdiff_t                 i, j, k;$/;"	language:C
+j	mexsdplr.c	/^  ptrdiff_t j;$/;"	language:C
+j	misc.c	/^  ptrdiff_t i, j, k, one=1;$/;"	language:C
+j	rankreduce.c	/^  ptrdiff_t h, i, j, k, p, q, base, base1, base2;$/;"	language:C
+j	readdata.c	/^   ptrdiff_t i, j;$/;"	language:C
+j	readdata.c	/^  ptrdiff_t h, i, j, k;$/;"	language:C
+j	readdata.c	/^  ptrdiff_t i, j, k, *nnz, num, pos1, pos2, sz;$/;"	language:C
+j	sdplrlib.c	/^  ptrdiff_t j, k;$/;"	language:C
+jc	mexsdplr.c	/^  ptrdiff_t *jc;$/;"	language:C
+jj	mexsdplr.c	/^  ptrdiff_t jj;$/;"	language:C
+jobz	eigen.c	/^  char uplo, jobz;$/;"	language:C
+jobz	readdata.c	/^  char jobz, uplo;$/;"	language:C
+jpvt	rankreduce.c	/^  ptrdiff_t info, lwork, *jpvt;$/;"	language:C
+k	copystructures.c	/^  ptrdiff_t h, i, j, k, nnz;$/;"	language:C
+k	dataoper.c	/^  ptrdiff_t      h, i, j, k;$/;"	language:C
+k	dataoper.c	/^  ptrdiff_t h, i, j, k;$/;"	language:C
+k	dataoper.c	/^  ptrdiff_t i, j, k;$/;"	language:C
+k	dataoper.c	/^  ptrdiff_t i, k, base;$/;"	language:C
+k	dataoper.c	/^  ptrdiff_t k, base=0;$/;"	language:C
+k	eigen.c	/^  ptrdiff_t ct, i, k, nev, maxitr, printlevel;$/;"	language:C
+k	eigen.c	/^  ptrdiff_t problem, ct, i, k;$/;"	language:C
+k	initialize.c	/^  ptrdiff_t                 h, i, j, k, ct;$/;"	language:C
+k	initialize.c	/^  ptrdiff_t                 i, j, k;$/;"	language:C
+k	initialize.c	/^  ptrdiff_t i, k;$/;"	language:C
+k	main.c	/^  ptrdiff_t h, k, base, ti1, ti2, ti3;$/;"	language:C
+k	main.c	/^  ptrdiff_t h, k, base;$/;"	language:C
+k	main.c	/^  ptrdiff_t h, k, ret, n, nr, *maxranks, *ranks;$/;"	language:C
+k	main.c	/^  ptrdiff_t i, k, *cons, n, nr, ind;$/;"	language:C
+k	mexsdplr.c	/^  ptrdiff_t k;$/;"	language:C
+k	misc.c	/^  ptrdiff_t i, j, k, one=1;$/;"	language:C
+k	params.c	/^  ptrdiff_t k;$/;"	language:C
+k	params.c	/^  ptrdiff_t maxlen=0, k, c;$/;"	language:C
+k	rankreduce.c	/^  ptrdiff_t h, i, j, k, p, q, base, base1, base2;$/;"	language:C
+k	readdata.c	/^  ptrdiff_t h, i, j, k;$/;"	language:C
+k	readdata.c	/^  ptrdiff_t h, i, k;$/;"	language:C
+k	readdata.c	/^  ptrdiff_t i, j, k, *nnz, num, pos1, pos2, sz;$/;"	language:C
+k	readdata.c	/^  ptrdiff_t i, k=0;$/;"	language:C
+k	readdata.c	/^  ptrdiff_t maxlen=0, k=0, c;$/;"	language:C
+k	sdplrlib.c	/^  ptrdiff_t  i, k, localiter=0, recalc=5, recalcct=10000000;$/;"	language:C
+k	sdplrlib.c	/^  ptrdiff_t j, k;$/;"	language:C
+label	copystructures.c	/^  char label[5] = "none\\0", type;$/;"	language:C
+label	structures.h	/^  char*          label;$/;"	language:C++	struct:__anon5
+lambda	main.c	/^  double *R, *lambda, pieces[8];$/;"	language:C
+lambda	mexsdplr.c	/^  double *lambda;$/;"	language:C
+lambda	structures.h	/^  double*      lambda;$/;"	language:C++	struct:__anon6
+lambdaupdate	sdplrlib.c	/^  ptrdiff_t    majiter, iter, CG, curr_CG, lambdaupdate;$/;"	language:C
+lambdaupdatect	sdplrlib.c	/^  ptrdiff_t          lambdaupdatect, oldest;$/;"	language:C
+lastval	sdplrlib.c	/^  double lastval; \/\/ monitor slowing down of optimization$/;"	language:C
+lbfgsvec	structures.h	/^} lbfgsvec;$/;"	language:C++	typeref:struct:__anon1
+ldv	eigen.c	/^  ptrdiff_t ldv, ido, lworkl, info, ierr;$/;"	language:C
+length	params.c	/^  ptrdiff_t i, length;$/;"	language:C
+lhs	sdplrlib.c	/^        mxArray *rhs[3], *lhs[1]; $/;"	language:C
+line	sdplrlib.c	/^  char line[1000], difficulty='h';$/;"	language:C
+line	sdplrlib.c	/^  char line[1000];$/;"	language:C
+linesearch	linesearch.c	/^double linesearch(problemdata* data, double* R, double* D, double max, double* funcval, ptrdiff_t update)$/;"	language:C	signature:(problemdata* data, double* R, double* D, double max, double* funcval, ptrdiff_t update)
+localiter	sdplrlib.c	/^  ptrdiff_t  i, k, localiter=0, recalc=5, recalcct=10000000;$/;"	language:C
+locatetype	initialize.c	/^ptrdiff_t locatetype(problemdata *data, ptrdiff_t blk, char type, ptrdiff_t **passed_ind, ptrdiff_t *passed_nind)$/;"	language:C	signature:(problemdata *data, ptrdiff_t blk, char type, ptrdiff_t **passed_ind, ptrdiff_t *passed_nind)
+lowrankmat	structures.h	/^} lowrankmat;$/;"	language:C++	typeref:struct:__anon2
+lr	structures.h	/^  lowrankmat*    lr;$/;"	language:C++	struct:__anon5
+lrA_	mexsdplr.c	/^  const mxArray *lrA_ = NULL;$/;"	language:C
+lrA_empty	mexsdplr.c	/^  ptrdiff_t lrA_empty=1;$/;"	language:C
+lr_blk	structures.h	/^  ptrdiff_t      *lr_blk;$/;"	language:C++	struct:__anon6
+lr_mat	structures.h	/^  ptrdiff_t      *lr_mat;$/;"	language:C++	struct:__anon6
+lr_num	structures.h	/^  ptrdiff_t       lr_num;$/;"	language:C++	struct:__anon6
+lrind	structures.h	/^  ptrdiff_t**      lrind;$/;"	language:C++	struct:__anon6
+lwork	rankreduce.c	/^  ptrdiff_t info, lwork, *jpvt;$/;"	language:C
+lwork	readdata.c	/^  ptrdiff_t r, c, nnz, sz, info, lwork, rank=0, maxsz;$/;"	language:C
+lworkl	eigen.c	/^  ptrdiff_t ldv, ido, lworkl, info, ierr;$/;"	language:C
+m	main.c	/^  ptrdiff_t m, numblk, *blksz;$/;"	language:C
+m	mexsdplr.c	/^  ptrdiff_t m;$/;"	language:C
+m	readdata.c	/^  ptrdiff_t    m, numblk, *blksz;$/;"	language:C
+m	structures.h	/^  ptrdiff_t        m;$/;"	language:C++	struct:__anon6
+main	main.c	/^ptrdiff_t main(ptrdiff_t argc, char *argv[])$/;"	language:C	signature:(ptrdiff_t argc, char *argv[])
+majiter	sdplrlib.c	/^  ptrdiff_t    majiter, iter, CG, curr_CG, lambdaupdate;$/;"	language:C
+mat	mexsdplr.c	/^  double *mat;$/;"	language:C
+match	params.c	/^  char *buff, *match;$/;"	language:C
+max_line_length	readdata.c	/^ptrdiff_t max_line_length(FILE *datafile)$/;"	language:C	signature:(FILE *datafile)
+maxblksz	eigen.c	/^  ptrdiff_t maxblksz, info, dimwork;$/;"	language:C
+maxblksz	rankreduce.c	/^  ptrdiff_t maxrank, maxblksz, newrank=0, **save;$/;"	language:C
+maxeval	readdata.c	/^  double *MM, *w, *work, maxeval=0.0;$/;"	language:C
+maxitr	eigen.c	/^  ptrdiff_t ct, i, k, nev, maxitr, printlevel;$/;"	language:C
+maxlen	params.c	/^  ptrdiff_t maxlen=0, k, c;$/;"	language:C
+maxlen	readdata.c	/^  ptrdiff_t maxlen=0, k=0, c;$/;"	language:C
+maxrank	rankreduce.c	/^  ptrdiff_t maxrank, maxblksz, newrank=0, **save;$/;"	language:C
+maxrank	structures.h	/^  ptrdiff_t*       maxrank;$/;"	language:C++	struct:__anon6
+maxranks	main.c	/^  ptrdiff_t h, k, ret, n, nr, *maxranks, *ranks;$/;"	language:C
+maxranks	mexsdplr.c	/^  ptrdiff_t *maxranks;$/;"	language:C
+maxsz	readdata.c	/^  ptrdiff_t r, c, nnz, sz, info, lwork, rank=0, maxsz;$/;"	language:C
+mexFunction	mexsdplr.c	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	language:C	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+minevalest	eigen.c	/^  double minevalest;$/;"	language:C
+minval	linesearch.c	/^  double quartic[5], cubic[4], roots[3], f0, fmax, f1, f2, f3, minval;$/;"	language:C
+mode	eigen.c	/^  ptrdiff_t mode, ishfts, rvec;$/;"	language:C
+move_in_dir	util.c	/^ptrdiff_t move_in_dir(double* dy, double* dx, double da, double* dir, ptrdiff_t n)$/;"	language:C	signature:(double* dy, double* dx, double da, double* dir, ptrdiff_t n)
+multval	structures.h	/^  double*        multval;$/;"	language:C++	struct:__anon5
+my_arpack	eigen.c	/^ptrdiff_t my_arpack(ptrdiff_t (*matvec)(double*, double*), ptrdiff_t n, ptrdiff_t nev, ptrdiff_t ncv, char* which, ptrdiff_t maxitr, ptrdiff_t printlevel, double* evals, double* evecs, ptrdiff_t* nconv, ptrdiff_t* nummatvec)$/;"	language:C	signature:(ptrdiff_t (matvec)double*, double*), ptrdiff_t n, ptrdiff_t nev, ptrdiff_t ncv, char* which, ptrdiff_t maxitr, ptrdiff_t printlevel, double* evals, double* evecs, ptrdiff_t* nconv, ptrdiff_t* nummatvec)
+mydaxpy	util.c	/^ptrdiff_t mydaxpy(ptrdiff_t n, double da, double* dx, ptrdiff_t incx, double* dy, ptrdiff_t incy)$/;"	language:C	signature:(ptrdiff_t n, double da, double* dx, ptrdiff_t incx, double* dy, ptrdiff_t incy)
+mydcopy	util.c	/^ptrdiff_t mydcopy(ptrdiff_t n, double* dx, ptrdiff_t incx, double* dy, ptrdiff_t incy)$/;"	language:C	signature:(ptrdiff_t n, double* dx, ptrdiff_t incx, double* dy, ptrdiff_t incy)
+myddot	util.c	/^double myddot(ptrdiff_t n, double* dx, ptrdiff_t incx, double* dy, ptrdiff_t incy)$/;"	language:C	signature:(ptrdiff_t n, double* dx, ptrdiff_t incx, double* dy, ptrdiff_t incy)
+mydnrm2	util.c	/^double mydnrm2(ptrdiff_t n, double* dx, ptrdiff_t incx)$/;"	language:C	signature:(ptrdiff_t n, double* dx, ptrdiff_t incx)
+mydscal	util.c	/^ptrdiff_t mydscal(ptrdiff_t n, double da, double* dx, ptrdiff_t incx)$/;"	language:C	signature:(ptrdiff_t n, double da, double* dx, ptrdiff_t incx)
+mymax	macros.h	14;"	language:C++
+mymax	mexsdplr.c	18;"	language:C	file:
+mymin	macros.h	15;"	language:C++
+mymin	mexsdplr.c	17;"	language:C	file:
+myprint	sdplrlib.c	/^void myprint(ptrdiff_t majiter, ptrdiff_t iter, double val, double rho_f_val, ptrdiff_t CG, double totaltime)$/;"	language:C	signature:(ptrdiff_t majiter, ptrdiff_t iter, double val, double rho_f_val, ptrdiff_t CG, double totaltime)
+n	main.c	/^  ptrdiff_t h, k, ret, n, nr, *maxranks, *ranks;$/;"	language:C
+n	main.c	/^  ptrdiff_t i, k, *cons, n, nr, ind;$/;"	language:C
+n	mexsdplr.c	/^  ptrdiff_t n;$/;"	language:C
+n	structures.h	/^  ptrdiff_t        n;$/;"	language:C++	struct:__anon6
+n_	mexsdplr.c	/^  ptrdiff_t n_;$/;"	language:C
+ncol	structures.h	/^  ptrdiff_t      ncol;$/;"	language:C++	struct:__anon2
+nev	eigen.c	/^  ptrdiff_t ct, i, k, nev, maxitr, printlevel;$/;"	language:C
+newrank	rankreduce.c	/^  ptrdiff_t maxrank, maxblksz, newrank=0, **save;$/;"	language:C
+nind	initialize.c	/^  ptrdiff_t *ind, nind;$/;"	language:C
+nlrind	structures.h	/^  ptrdiff_t*       nlrind;$/;"	language:C++	struct:__anon6
+nnz	copystructures.c	/^  ptrdiff_t h, i, j, k, nnz;$/;"	language:C
+nnz	mexsdplr.c	/^  ptrdiff_t nnz;$/;"	language:C
+nnz	readdata.c	/^  ptrdiff_t i, ct, buflen, ret, num, pos1, pos2, blk, *nnz, *temp_num, *temp_blk, specindex;$/;"	language:C
+nnz	readdata.c	/^  ptrdiff_t i, j, k, *nnz, num, pos1, pos2, sz;$/;"	language:C
+nnz	readdata.c	/^  ptrdiff_t r, c, nnz, sz, info, lwork, rank=0, maxsz;$/;"	language:C
+nnz	structures.h	/^  ptrdiff_t     nnz;$/;"	language:C++	struct:__anon3
+nnz	structures.h	/^  ptrdiff_t     nnz;$/;"	language:C++	struct:__anon4
+normC	sdplrlib.c	/^  double       alpha, rho_c_tol, normb, normC;$/;"	language:C
+normC	structures.h	/^  double     normC;$/;"	language:C++	struct:__anon6
+normb	sdplrlib.c	/^  double       alpha, rho_c_tol, normb, normC;$/;"	language:C
+normdatamat	dataoper.c	/^double normdatamat(problemdata* data, ptrdiff_t matnum)$/;"	language:C	signature:(problemdata* data, ptrdiff_t matnum)
+normsq	dataoper.c	/^  double normsq, *VD, *VtV, *DVtVD, one=1.0, zero=0.0;$/;"	language:C
+nr	main.c	/^  ptrdiff_t h, k, ret, n, nr, *maxranks, *ranks;$/;"	language:C
+nr	main.c	/^  ptrdiff_t i, k, *cons, n, nr, ind;$/;"	language:C
+nr	mexsdplr.c	/^  ptrdiff_t nr;$/;"	language:C
+nr	structures.h	/^  ptrdiff_t        nr;$/;"	language:C++	struct:__anon6
+nrow	structures.h	/^  ptrdiff_t      nrow;$/;"	language:C++	struct:__anon2
+nspind	initialize.c	/^  ptrdiff_t                *spind, nspind;$/;"	language:C
+num	readdata.c	/^  ptrdiff_t i, ct, buflen, ret, num, pos1, pos2, blk, *nnz, *temp_num, *temp_blk, specindex;$/;"	language:C
+num	readdata.c	/^  ptrdiff_t i, j, k, *nnz, num, pos1, pos2, sz;$/;"	language:C
+numbfgsvecs	main.c	/^  ptrdiff_t numbfgsvecs;$/;"	language:C
+numbfgsvecs	mexsdplr.c	/^  ptrdiff_t numbfgsvecs;$/;"	language:C
+numbfgsvecs	structures.h	/^  ptrdiff_t        numbfgsvecs;$/;"	language:C++	struct:__anon6
+numblk	main.c	/^  ptrdiff_t m, numblk, *blksz;$/;"	language:C
+numblk	mexsdplr.c	/^  ptrdiff_t numblk;$/;"	language:C
+numblk	readdata.c	/^  ptrdiff_t    m, numblk, *blksz;$/;"	language:C
+numblk	structures.h	/^  ptrdiff_t        numblk;$/;"	language:C++	struct:__anon6
+numparams	params.c	/^  ptrdiff_t i, buffsz, ret, numparams=NUMPARAMS;$/;"	language:C
+nusind	structures.h	/^  ptrdiff_t*       nusind;$/;"	language:C++	struct:__anon6
+oldest	sdplrlib.c	/^  ptrdiff_t          lambdaupdatect, oldest;$/;"	language:C
+one	dataoper.c	/^  double half=0.5, one=1.0, zero=0.0;$/;"	language:C
+one	dataoper.c	/^  double normsq, *VD, *VtV, *DVtVD, one=1.0, zero=0.0;$/;"	language:C
+one	dataoper.c	/^  double one=1.0, zero=0.0, *U;$/;"	language:C
+one	dataoper.c	/^  double one=1.0, zero=0.0;$/;"	language:C
+one	dataoper.c	/^  ptrdiff_t temp, one=1;$/;"	language:C
+one	mexsdplr.c	/^  double one = 1.0;$/;"	language:C
+one	misc.c	/^  ptrdiff_t i, j, k, one=1;$/;"	language:C
+origval	sdplrlib.c	/^  double origval;$/;"	language:C
+origy0	dataoper.c	/^  double   origy0=0.0, tv;$/;"	language:C
+overallsc	sdplrlib.c	/^  double sc, overallsc, tv; \/\/ scaling related$/;"	language:C
+p	rankreduce.c	/^  ptrdiff_t h, i, j, k, p, q, base, base1, base2;$/;"	language:C
+paramstr	params.c	/^  char paramstr[NUMPARAMS][100] = {$/;"	language:C
+paramstr	params.c	/^  char paramstr[NUMPARAMS][50] = {$/;"	language:C
+pars_	mexsdplr.c	/^  const mxArray *pars_;$/;"	language:C
+pars_empty	mexsdplr.c	/^  ptrdiff_t pars_empty=1;$/;"	language:C
+partition5	readdata.c	/^ptrdiff_t partition5(ptrdiff_t* A1, ptrdiff_t* A2, ptrdiff_t* A3, ptrdiff_t* A4, double* A5, ptrdiff_t p, ptrdiff_t r)$/;"	language:C	signature:(ptrdiff_t* A1, ptrdiff_t* A2, ptrdiff_t* A3, ptrdiff_t* A4, double* A5, ptrdiff_t p, ptrdiff_t r)
+pieces	main.c	/^  double *R, *lambda, pieces[8];$/;"	language:C
+pieces	mexsdplr.c	/^  double pieces[8];$/;"	language:C
+pos1	readdata.c	/^  ptrdiff_t i, ct, buflen, ret, num, pos1, pos2, blk, *nnz, *temp_num, *temp_blk, specindex;$/;"	language:C
+pos1	readdata.c	/^  ptrdiff_t i, j, k, *nnz, num, pos1, pos2, sz;$/;"	language:C
+pos2	readdata.c	/^  ptrdiff_t i, ct, buflen, ret, num, pos1, pos2, blk, *nnz, *temp_num, *temp_blk, specindex;$/;"	language:C
+pos2	readdata.c	/^  ptrdiff_t i, j, k, *nnz, num, pos1, pos2, sz;$/;"	language:C
+precond	mexsdplr.c	/^  ptrdiff_t precond;$/;"	language:C
+print_dimacs_errors	misc.c	/^ptrdiff_t print_dimacs_errors(problemdata* data, double* R)$/;"	language:C	signature:(problemdata* data, double* R)
+print_notes	misc.c	/^ptrdiff_t print_notes(void)$/;"	language:C	signature:(void)
+printf	macros.h	6;"	language:C++
+printheading	misc.c	/^ptrdiff_t printheading(ptrdiff_t start)$/;"	language:C	signature:(ptrdiff_t start)
+printlevel	eigen.c	/^  ptrdiff_t ct, i, k, nev, maxitr, printlevel;$/;"	language:C
+printlevel	main.c	/^  ptrdiff_t printlevel;$/;"	language:C
+printlevel	mexsdplr.c	/^  ptrdiff_t printlevel;$/;"	language:C
+printlevel	structures.h	/^  ptrdiff_t        printlevel;$/;"	language:C++	struct:__anon6
+printparams	misc.c	/^ptrdiff_t printparams(problemdata* data)$/;"	language:C	signature:(problemdata* data)
+problem	eigen.c	/^  ptrdiff_t problem, ct, i, k;$/;"	language:C
+problem	eigen.c	/^  ptrdiff_t problem=0;$/;"	language:C
+problem	misc.c	/^  ptrdiff_t problem;$/;"	language:C
+problemdata	structures.h	/^} problemdata;$/;"	language:C++	typeref:struct:__anon6
+ptr1	readdata.c	/^  char *buf, c, *ptr1, *ptr2;$/;"	language:C
+ptr2	readdata.c	/^  char *buf, c, *ptr1, *ptr2;$/;"	language:C
+q	rankreduce.c	/^  ptrdiff_t h, i, j, k, p, q, base, base1, base2;$/;"	language:C
+q	readdata.c	/^   ptrdiff_t q;$/;"	language:C
+quartic	linesearch.c	/^  double quartic[5], cubic[4], roots[3], f0, fmax, f1, f2, f3, minval;$/;"	language:C
+quicksort5	readdata.c	/^ptrdiff_t quicksort5(ptrdiff_t* A1, ptrdiff_t* A2, ptrdiff_t* A3, ptrdiff_t* A4, double* A5, ptrdiff_t p, ptrdiff_t r)$/;"	language:C	signature:(ptrdiff_t* A1, ptrdiff_t* A2, ptrdiff_t* A3, ptrdiff_t* A4, double* A5, ptrdiff_t p, ptrdiff_t r)
+r	dataoper.c	/^  ptrdiff_t h, i, j, r;$/;"	language:C
+r	mexsdplr.c	/^  ptrdiff_t r, c;$/;"	language:C
+r	readdata.c	/^  ptrdiff_t r, c, nnz, sz, info, lwork, rank=0, maxsz;$/;"	language:C
+r0_	mexsdplr.c	/^  const mxArray *r0_;$/;"	language:C
+r0_empty	mexsdplr.c	/^  ptrdiff_t r0_empty=1;$/;"	language:C
+rank	dataoper.c	/^  ptrdiff_t blksz, rank;$/;"	language:C
+rank	readdata.c	/^  ptrdiff_t r, c, nnz, sz, info, lwork, rank=0, maxsz;$/;"	language:C
+rank	structures.h	/^  ptrdiff_t*       rank;$/;"	language:C++	struct:__anon6
+rankredtol	main.c	/^  double rankredtol;$/;"	language:C
+rankredtol	mexsdplr.c	/^  double rankredtol;$/;"	language:C
+rankredtol	structures.h	/^  double     rankredtol;$/;"	language:C++	struct:__anon6
+rankreduce	main.c	/^  ptrdiff_t rankreduce;$/;"	language:C
+rankreduce	mexsdplr.c	/^  ptrdiff_t rankreduce;$/;"	language:C
+rankreduce	structures.h	/^  ptrdiff_t        rankreduce;$/;"	language:C++	struct:__anon6
+ranks	main.c	/^  ptrdiff_t h, k, ret, n, nr, *maxranks, *ranks;$/;"	language:C
+ranks	mexsdplr.c	/^  ptrdiff_t *ranks;$/;"	language:C
+readdata_raw	readdata.c	/^ptrdiff_t readdata_raw(char* datafilename, ptrdiff_t* passed_m, ptrdiff_t* passed_numblk, ptrdiff_t** passed_blksz,$/;"	language:C	signature:(char* datafilename, ptrdiff_t* passed_m, ptrdiff_t* passed_numblk, ptrdiff_t** passed_blksz, char** passed_blktype, double** passed_b, double** passed_CAent, ptrdiff_t** passed_CArow, ptrdiff_t** passed_CAcol, ptrdiff_t** passed_CAinfo_entptr, ptrdiff_t** passed_CAinfo_rowcolptr, char** passed_CAinfo_type, char** passed_CAinfo_storage)
+readdata_sdpa	readdata.c	/^ptrdiff_t readdata_sdpa(char* datafilename, ptrdiff_t* passed_m, ptrdiff_t* passed_numblk, ptrdiff_t** passed_blksz,$/;"	language:C	signature:(char* datafilename, ptrdiff_t* passed_m, ptrdiff_t* passed_numblk, ptrdiff_t** passed_blksz, char** passed_blktype, double** passed_b, double** passed_CAent, ptrdiff_t** passed_CArow, ptrdiff_t** passed_CAcol, ptrdiff_t** passed_CAinfo_entptr, ptrdiff_t** passed_CAinfo_rowcolptr, char** passed_CAinfo_type, char** passed_CAinfo_storage)
+readdata_sdplr	readdata.c	/^ptrdiff_t readdata_sdplr(char* datafilename, ptrdiff_t* passed_m, ptrdiff_t* passed_numblk, ptrdiff_t** passed_blksz,$/;"	language:C	signature:(char* datafilename, ptrdiff_t* passed_m, ptrdiff_t* passed_numblk, ptrdiff_t** passed_blksz, char** passed_blktype, double** passed_b, double** passed_CAent, ptrdiff_t** passed_CArow, ptrdiff_t** passed_CAcol, ptrdiff_t** passed_CAinfo_entptr, ptrdiff_t** passed_CAinfo_rowcolptr, char** passed_CAinfo_type, char** passed_CAinfo_storage)
+readin	main.c	/^ptrdiff_t readin(ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t* blksz, char* blktype, double* R, double* lambda, ptrdiff_t* maxranks, ptrdiff_t* ranks, double* pieces, FILE* fid)$/;"	language:C	signature:(ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t* blksz, char* blktype, double* R, double* lambda, ptrdiff_t* maxranks, ptrdiff_t* ranks, double* pieces, FILE* fid)
+recalc	sdplrlib.c	/^  ptrdiff_t  i, k, localiter=0, recalc=5, recalcct=10000000;$/;"	language:C
+recalcct	sdplrlib.c	/^  ptrdiff_t  i, k, localiter=0, recalc=5, recalcct=10000000;$/;"	language:C
+reorder	mexsdplr.c	/^  ptrdiff_t reorder;$/;"	language:C
+resid	eigen.c	/^  double *v, *workl, *workd, *d, *resid;$/;"	language:C
+ret	main.c	/^  ptrdiff_t h, k, ret, n, nr, *maxranks, *ranks;$/;"	language:C
+ret	params.c	/^  char in[NUMPARAMS][110], *ret, filename[] = "sdplr.params", usrfilename[100];$/;"	language:C
+ret	params.c	/^  ptrdiff_t i, buffsz, ret, numparams=NUMPARAMS;$/;"	language:C
+ret	readdata.c	/^  ptrdiff_t i, ct, buflen, ret, num, pos1, pos2, blk, *nnz, *temp_num, *temp_blk, specindex;$/;"	language:C
+rho	structures.h	/^  double rho;$/;"	language:C++	struct:__anon1
+rho_c	main.c	/^  double rho_c;$/;"	language:C
+rho_c	mexsdplr.c	/^  double rho_c;$/;"	language:C
+rho_c	structures.h	/^  double     rho_c;$/;"	language:C++	struct:__anon6
+rho_c_tol	sdplrlib.c	/^  double       alpha, rho_c_tol, normb, normC;$/;"	language:C
+rho_c_val	sdplrlib.c	/^  double       val, rho_c_val, rho_f_val;$/;"	language:C
+rho_f	main.c	/^  double rho_f;$/;"	language:C
+rho_f	mexsdplr.c	/^  double rho_f;$/;"	language:C
+rho_f	structures.h	/^  double     rho_f;$/;"	language:C++	struct:__anon6
+rho_f_val	sdplrlib.c	/^  double       val, rho_c_val, rho_f_val;$/;"	language:C
+rhs	sdplrlib.c	/^        mxArray *rhs[3], *lhs[1]; $/;"	language:C
+rk	dataoper.c	/^  ptrdiff_t base, rk;$/;"	language:C
+roots	linesearch.c	/^  double quartic[5], cubic[4], roots[3], f0, fmax, f1, f2, f3, minval;$/;"	language:C
+row	initialize.c	/^  ptrdiff_t col, row, ctr;$/;"	language:C
+row	structures.h	/^  ptrdiff_t*    row;$/;"	language:C++	struct:__anon3
+rowind	dataoper.c	/^  ptrdiff_t *colptr, *rowind;$/;"	language:C
+rowind	misc.c	/^  ptrdiff_t *colptr, *rowind;$/;"	language:C
+rvec	eigen.c	/^  ptrdiff_t mode, ishfts, rvec;$/;"	language:C
+s	structures.h	/^  double *s; $/;"	language:C++	struct:__anon1
+save	rankreduce.c	/^  ptrdiff_t maxrank, maxblksz, newrank=0, **save;$/;"	language:C
+sc	sdplrlib.c	/^  double sc, overallsc, tv; \/\/ scaling related$/;"	language:C
+sdplrlib	sdplrlib.c	/^ptrdiff_t sdplrlib (ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t *blksz, char *blktype, double *b,$/;"	language:C	signature:(ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t *blksz, char *blktype, double *b, double *CAent, ptrdiff_t *CArow, ptrdiff_t *CAcol, ptrdiff_t *CAinfo_entptr, char *CAinfo_type, ptrdiff_t numbfgsvecs, double rho_f, double rho_c, double sigmafac, ptrdiff_t rankreduce, double gaptol, ptrdiff_t checkbd, ptrdiff_t typebd, ptrdiff_t dthresh_dim, double dthresh_dens, ptrdiff_t timelim, double rankredtol, ptrdiff_t printlevel, double *R, double *lambda, ptrdiff_t* maxranks, ptrdiff_t *ranks, double *pieces)
+seed	mexsdplr.c	/^  ptrdiff_t seed;$/;"	language:C
+select	eigen.c	/^  ptrdiff_t *select, iparam[11], ipntr[11];$/;"	language:C
+side	dataoper.c	/^  char side='l', uplo='l', transyes='t', transno='n';$/;"	language:C
+sigma	eigen.c	/^  double tol, sigma;$/;"	language:C
+sigma	structures.h	/^  double       sigma;$/;"	language:C++	struct:__anon6
+sigmafac	main.c	/^  double sigmafac;$/;"	language:C
+sigmafac	mexsdplr.c	/^  double sigmafac;$/;"	language:C
+sigmafac	structures.h	/^  double     sigmafac;$/;"	language:C++	struct:__anon6
+simple_Stimesvec_block	eigen.c	/^ptrdiff_t simple_Stimesvec_block(double* out, double* in)$/;"	language:C	signature:(double* out, double* in)
+skip_to_end_of_line	readdata.c	/^void skip_to_end_of_line(FILE *datafile)$/;"	language:C	signature:(FILE *datafile)
+soln_factored	mexsdplr.c	/^  ptrdiff_t soln_factored=0;$/;"	language:C
+sp	structures.h	/^  sparsesymmmat* sp;$/;"	language:C++	struct:__anon5
+sparsesymmmat	structures.h	/^} sparsesymmmat;$/;"	language:C++	typeref:struct:__anon3
+specindex	readdata.c	/^  ptrdiff_t ct, blk, specindex;$/;"	language:C
+specindex	readdata.c	/^  ptrdiff_t i, ct, buflen, ret, num, pos1, pos2, blk, *nnz, *temp_num, *temp_blk, specindex;$/;"	language:C
+spind	initialize.c	/^  ptrdiff_t                *spind, nspind;$/;"	language:C
+ss	linesearch.c	/^  double ss=0.0;$/;"	language:C
+start	structures.h	/^  clock_t start;$/;"	language:C++	struct:__anon6
+sum	dataoper.c	/^  double sum;$/;"	language:C
+sv1	readdata.c	/^   ptrdiff_t sv1, sv2;$/;"	language:C
+sv2	readdata.c	/^   ptrdiff_t sv1, sv2;$/;"	language:C
+sz	readdata.c	/^  ptrdiff_t i, j, k, *nnz, num, pos1, pos2, sz;$/;"	language:C
+sz	readdata.c	/^  ptrdiff_t r, c, nnz, sz, info, lwork, rank=0, maxsz;$/;"	language:C
+t1	readdata.c	/^   ptrdiff_t t1, t2, t3, t4;$/;"	language:C
+t2	readdata.c	/^   ptrdiff_t t1, t2, t3, t4;$/;"	language:C
+t3	readdata.c	/^   ptrdiff_t t1, t2, t3, t4;$/;"	language:C
+t4	readdata.c	/^   ptrdiff_t t1, t2, t3, t4;$/;"	language:C
+t5	readdata.c	/^   double t5;$/;"	language:C
+tau	rankreduce.c	/^  double *work, *tau;$/;"	language:C
+tc1	main.c	/^  char tc1;$/;"	language:C
+temp	dataoper.c	/^  ptrdiff_t temp, one=1;$/;"	language:C
+tempU	rankreduce.c	/^  double tol, *U, *tempU, tv;$/;"	language:C
+temp_blk	readdata.c	/^  ptrdiff_t i, ct, buflen, ret, num, pos1, pos2, blk, *nnz, *temp_num, *temp_blk, specindex;$/;"	language:C
+temp_num	readdata.c	/^  ptrdiff_t i, ct, buflen, ret, num, pos1, pos2, blk, *nnz, *temp_num, *temp_blk, specindex;$/;"	language:C
+tempint	copystructures.c	/^  ptrdiff_t tempint, tempint2;$/;"	language:C
+tempint	eigen.c	/^  ptrdiff_t tempint;$/;"	language:C
+tempint	mexsdplr.c	/^  ptrdiff_t *tempint;$/;"	language:C
+tempint2	copystructures.c	/^  ptrdiff_t tempint, tempint2;$/;"	language:C
+tempval	misc.c	/^  double tempval;$/;"	language:C
+ti1	main.c	/^  ptrdiff_t h, k, base, ti1, ti2, ti3;$/;"	language:C
+ti2	main.c	/^  ptrdiff_t h, k, base, ti1, ti2, ti3;$/;"	language:C
+ti3	main.c	/^  ptrdiff_t h, k, base, ti1, ti2, ti3;$/;"	language:C
+timearr	timefuncs.c	/^  struct  tms timearr;$/;"	language:C
+timearray	sdplrlib.c	/^  struct tms          timearray;$/;"	language:C
+timelim	main.c	/^  ptrdiff_t timelim;$/;"	language:C
+timelim	mexsdplr.c	/^  ptrdiff_t timelim;$/;"	language:C
+timelim	structures.h	/^  ptrdiff_t        timelim;$/;"	language:C++	struct:__anon6
+timeoffset	sdplrlib.c	/^  double timeoffset;$/;"	language:C
+timeorig	sdplrlib.c	/^  clock_t             timeorig;$/;"	language:C
+timeorig	sdplrlib.c	/^  double              timeorig;$/;"	language:C
+timeprintfreq	sdplrlib.c	/^  double timeprintfreq = 0.0;$/;"	language:C
+tol	eigen.c	/^  double tol, sigma;$/;"	language:C
+tol	rankreduce.c	/^  double tol, *U, *tempU, tv;$/;"	language:C
+totalnorm	rankreduce.c	/^  double currnorm, totalnorm;$/;"	language:C
+totaltime	structures.h	/^  double totaltime;$/;"	language:C++	struct:__anon6
+trans	dataoper.c	/^  char uplo='L', trans='T';$/;"	language:C
+trans	dataoper.c	/^  char uplo='l', trans='n';$/;"	language:C
+trans	mexsdplr.c	/^  char trans = 'n';$/;"	language:C
+transno	dataoper.c	/^  char side='l', uplo='l', transyes='t', transno='n';$/;"	language:C
+transr	dataoper.c	/^  char transr, transv;$/;"	language:C
+transv	dataoper.c	/^  char transr, transv;$/;"	language:C
+transyes	dataoper.c	/^  char side='l', uplo='l', transyes='t', transno='n';$/;"	language:C
+tv	dataoper.c	/^  double   origy0=0.0, tv;$/;"	language:C
+tv	rankreduce.c	/^  double tol, *U, *tempU, tv;$/;"	language:C
+tv	sdplrlib.c	/^  double sc, overallsc, tv; \/\/ scaling related$/;"	language:C
+type	copystructures.c	/^  char label[5] = "none\\0", type;$/;"	language:C
+type	readdata.c	/^  char type;$/;"	language:C
+type	structures.h	/^  char           type;$/;"	language:C++	struct:__anon5
+typebd	main.c	/^  ptrdiff_t typebd;$/;"	language:C
+typebd	mexsdplr.c	/^  ptrdiff_t typebd;$/;"	language:C
+typebd	structures.h	/^  ptrdiff_t        typebd;$/;"	language:C++	struct:__anon6
+updatelbfgs1	lbfgs.c	/^ptrdiff_t updatelbfgs1(problemdata* data, lbfgsvec* vecs, double* grad, ptrdiff_t oldest)$/;"	language:C	signature:(problemdata* data, lbfgsvec* vecs, double* grad, ptrdiff_t oldest)
+updatelbfgs2	lbfgs.c	/^ptrdiff_t updatelbfgs2(problemdata* data, lbfgsvec* vecs, double* dir, double* grad, double stepsize, ptrdiff_t* oldest, ptrdiff_t numlbfgsvecs)$/;"	language:C	signature:(problemdata* data, lbfgsvec* vecs, double* dir, double* grad, double stepsize, ptrdiff_t* oldest, ptrdiff_t numlbfgsvecs)
+uplo	dataoper.c	/^  char     uplo = 'l';$/;"	language:C
+uplo	dataoper.c	/^  char side='l', uplo='l', transyes='t', transno='n';$/;"	language:C
+uplo	dataoper.c	/^  char uplo='L', trans='T';$/;"	language:C
+uplo	dataoper.c	/^  char uplo='l', trans='n';$/;"	language:C
+uplo	eigen.c	/^  char uplo, jobz;$/;"	language:C
+uplo	mexsdplr.c	/^  char uplo = 'l';$/;"	language:C
+uplo	readdata.c	/^  char jobz, uplo;$/;"	language:C
+usind	structures.h	/^  ptrdiff_t**      usind;$/;"	language:C++	struct:__anon6
+usrfilename	params.c	/^  char in[NUMPARAMS][110], *ret, filename[] = "sdplr.params", usrfilename[100];$/;"	language:C
+v	eigen.c	/^  double *v, *workl, *workd, *d, *resid;$/;"	language:C
+val	sdplrlib.c	/^  double       val, rho_c_val, rho_f_val;$/;"	language:C
+values	params.c	/^  double values[NUMPARAMS];$/;"	language:C
+vec	lbfgs.c	/^  lbfgsvec *vec;$/;"	language:C
+vecs	sdplrlib.c	/^  lbfgsvec    *vecs=NULL;$/;"	language:C
+vio	structures.h	/^  double*      vio;$/;"	language:C++	struct:__anon6
+w	readdata.c	/^  double *MM, *w, *work, maxeval=0.0;$/;"	language:C
+which	eigen.c	/^  char which[3];$/;"	language:C
+work	eigen.c	/^  double *work, *Scopy, *evals;$/;"	language:C
+work	rankreduce.c	/^  double *work, *tau;$/;"	language:C
+work	readdata.c	/^  double *MM, *w, *work, maxeval=0.0;$/;"	language:C
+workd	eigen.c	/^  double *v, *workl, *workd, *d, *resid;$/;"	language:C
+workl	eigen.c	/^  double *v, *workl, *workd, *d, *resid;$/;"	language:C
+writedata_raw	readdata.c	/^ptrdiff_t writedata_raw(char* datafilename, ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t* blksz,$/;"	language:C	signature:(char* datafilename, ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t* blksz, char* blktype, double* b, double* CAent, ptrdiff_t* CArow, ptrdiff_t* CAcol, ptrdiff_t* CAinfo_entptr, ptrdiff_t* CAinfo_rowcolptr, char* CAinfo_type, char* CAinfo_storage)
+writedata_sdpa	readdata.c	/^ptrdiff_t writedata_sdpa(char* datafilename, ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t* blksz,$/;"	language:C	signature:(char* datafilename, ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t* blksz, char* blktype, double* b, double* CAent, ptrdiff_t* CArow, ptrdiff_t* CAcol, ptrdiff_t* CAinfo_entptr, char* CAinfo_type)
+writedata_sdplr	readdata.c	/^ptrdiff_t writedata_sdplr(char* datafilename, ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t* blksz,$/;"	language:C	signature:(char* datafilename, ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t* blksz, char* blktype, double* b, double* CAent, ptrdiff_t* CArow, ptrdiff_t* CAcol, ptrdiff_t* CAinfo_entptr, char* CAinfo_type)
+writeout	main.c	/^ptrdiff_t writeout(ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t* blksz, char* blktype, double* R, double* lambda, ptrdiff_t* maxranks, ptrdiff_t* ranks, double* pieces, FILE* fid)$/;"	language:C	signature:(ptrdiff_t m, ptrdiff_t numblk, ptrdiff_t* blksz, char* blktype, double* R, double* lambda, ptrdiff_t* maxranks, ptrdiff_t* ranks, double* pieces, FILE* fid)
+writeraw	mexsdplr.c	/^  ptrdiff_t writeraw=0;$/;"	language:C
+x0_	mexsdplr.c	/^  const mxArray *x0_;$/;"	language:C
+y	structures.h	/^  double   *y;$/;"	language:C++	struct:__anon6
+y	structures.h	/^  double *y;$/;"	language:C++	struct:__anon1
+y0_	mexsdplr.c	/^  const mxArray *y0_;$/;"	language:C
+y0_empty	mexsdplr.c	/^  ptrdiff_t y0_empty=1;$/;"	language:C
+zero	dataoper.c	/^  double half=0.5, one=1.0, zero=0.0;$/;"	language:C
+zero	dataoper.c	/^  double normsq, *VD, *VtV, *DVtVD, one=1.0, zero=0.0;$/;"	language:C
+zero	dataoper.c	/^  double one=1.0, zero=0.0, *U;$/;"	language:C
+zero	dataoper.c	/^  double one=1.0, zero=0.0;$/;"	language:C
+zero	eigen.c	/^  double zero;$/;"	language:C
+zero	mexsdplr.c	/^  double zero = 0.0;$/;"	language:C

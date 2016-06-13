@@ -1,0 +1,24 @@
+// external
+extern void dgemm_();
+extern void dgemv_();
+extern void dgeqp3_();
+extern void dsymv_();
+extern void dsymm_();
+extern void dsyr_();
+extern void dsyrk_();
+extern void dsyr2k_();
+extern void dpotrf_();
+extern void dtrsv_();
+extern void dtrsm_();
+extern void dsaupd_();
+extern void dseupd_();
+extern void dsyev_();
+extern void dtrmm_();
+extern ptrdiff_t  idamax_();
+extern ptrdiff_t gsl_poly_solve_cubic(double, double, double, double*, double*, double*);
+extern double gsl_poly_eval(double*, ptrdiff_t, double);
+extern ptrdiff_t    daxpy_();
+extern ptrdiff_t    dcopy_();
+extern double ddot_();
+extern double dnrm2_();
+extern ptrdiff_t    dscal_();

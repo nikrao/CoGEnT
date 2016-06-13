@@ -1,0 +1,8 @@
+*.o
+*~
+*.mex*
+tags
+README*
+COPYING
+AUTHORS
+LICENSE
